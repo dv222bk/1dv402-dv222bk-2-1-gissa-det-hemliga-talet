@@ -61,7 +61,7 @@ namespace _1DV402.S2.L1C {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tyvärr, du lyckades inte gissa det rätta nummret. Det rätta nummret var: {0}!.
+        ///   Looks up a localized string similar to  Inga fler gissningar! Det hemliga talet var {0}..
         /// </summary>
         internal static string Cannot_Guess {
             get {
@@ -70,11 +70,141 @@ namespace _1DV402.S2.L1C {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Count_{0} gissningen: .
+        ///   Looks up a localized string similar to 
+        ///    Nytt hemligt nummer? [N] avbryter.    .
+        /// </summary>
+        internal static string Continue_Prompt {
+            get {
+                return ResourceManager.GetString("Continue_Prompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Första.
+        /// </summary>
+        internal static string Count_1 {
+            get {
+                return ResourceManager.GetString("Count_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Andra.
+        /// </summary>
+        internal static string Count_2 {
+            get {
+                return ResourceManager.GetString("Count_2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tredje.
+        /// </summary>
+        internal static string Count_3 {
+            get {
+                return ResourceManager.GetString("Count_3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fjärde.
+        /// </summary>
+        internal static string Count_4 {
+            get {
+                return ResourceManager.GetString("Count_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Femte.
+        /// </summary>
+        internal static string Count_5 {
+            get {
+                return ResourceManager.GetString("Count_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sjätte.
+        /// </summary>
+        internal static string Count_6 {
+            get {
+                return ResourceManager.GetString("Count_6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sjunde.
+        /// </summary>
+        internal static string Count_7 {
+            get {
+                return ResourceManager.GetString("Count_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} gissningen: .
         /// </summary>
         internal static string Guess_Number {
             get {
                 return ResourceManager.GetString("Guess_Number", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ╔══════════════════════════════════════╗ 
+        ///║ Gissa det hemliga talet mellan 1-100 ║ 
+        ///╚══════════════════════════════════════╝ 
+        ///.
+        /// </summary>
+        internal static string Header {
+            get {
+                return ResourceManager.GetString("Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gissa ett heltal mellan 1-100..
+        /// </summary>
+        internal static string Help_Prompt {
+            get {
+                return ResourceManager.GetString("Help_Prompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} är för högt..
+        /// </summary>
+        internal static string Outcome_High {
+            get {
+                return ResourceManager.GetString("Outcome_High", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} är för lågt..
+        /// </summary>
+        internal static string Outcome_Low {
+            get {
+                return ResourceManager.GetString("Outcome_Low", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inga fler gissningar!.
+        /// </summary>
+        internal static string Outcome_NoMoreGuesses {
+            get {
+                return ResourceManager.GetString("Outcome_NoMoreGuesses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Du har redan gissat på talet {0}!.
+        /// </summary>
+        internal static string Outcome_OldGuess {
+            get {
+                return ResourceManager.GetString("Outcome_OldGuess", resourceCulture);
             }
         }
         
@@ -93,6 +223,15 @@ namespace _1DV402.S2.L1C {
         internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ett oväntat fel inträffade! Programmet avbryts..
+        /// </summary>
+        internal static string Unexpected_Exception {
+            get {
+                return ResourceManager.GetString("Unexpected_Exception", resourceCulture);
             }
         }
     }

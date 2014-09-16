@@ -70,7 +70,7 @@ namespace _1DV402.S2.L1C
         {
             for (int i = 0; i < _guessedNumbers.Length; i++)
             {
-                _guessedNumbers[i].Number = 0;
+                _guessedNumbers[i].Number = null;
                 _guessedNumbers[i].Outcome = Outcome.Indefinite;
             }
             Random random = new Random();
