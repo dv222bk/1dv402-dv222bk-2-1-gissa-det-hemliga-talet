@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace _1DV402.S2.L1C
 {
+    /// <summary>
+    /// Struct that can hold an Outcome (Outcome) and int? (Number)
+    /// </summary>
     public struct GuessedNumber
     {
         public int? Number;
